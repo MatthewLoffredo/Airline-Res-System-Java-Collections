@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AirlineResSysController">
+   <children>
+      <BorderPane fx:id="bProot" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="makeRes" layoutX="50.0" layoutY="174.0" mnemonicParsing="false" onAction="#openEnterInfoScene" text="Make a Reservation" />
+            <Button fx:id="viewRes" layoutX="50.0" layoutY="239.0" mnemonicParsing="false" onAction="#openTableView" text="View Boarding Group" />
+            <Text fx:id="welcomeText" layoutX="50.0" layoutY="71.0" opacity="0.71" stroke="BLACK" strokeType="OUTSIDE" text="Welcome To SkyHigh Airlines!">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Button layoutX="50.0" layoutY="207.0" mnemonicParsing="false" onAction="#openSearchView" text="View/Delete Reservation" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

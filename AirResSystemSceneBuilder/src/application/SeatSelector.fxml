@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import CustomRect.SeatPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SeatSelectorController">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="1080.0" layoutX="27.0" layoutY="-97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../SeatChart3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#74d8ff" height="24.0" layoutX="331.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <BorderPane layoutX="158.0" layoutY="40.0" prefHeight="35.0" prefWidth="545.0">
+         <center>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Economy" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </center>
+      </BorderPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#48bcff" height="24.0" layoutX="560.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="177.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#961818" height="25.0" layoutX="712.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="67.0" />
+      <SeatPane fx:id="R1A1" layoutX="767.0" layoutY="196.0" />
+      <SeatPane fx:id="R1B2" layoutX="767.0" layoutY="230.0" />
+      <SeatPane fx:id="R1C3" layoutX="767.0" layoutY="261.0" />
+      <SeatPane fx:id="R1D4" layoutX="767.0" layoutY="295.0" />
+      <SeatPane fx:id="R2A5" layoutX="739.0" layoutY="196.0" />
+      <SeatPane fx:id="R2B6" layoutX="739.0" layoutY="230.0" />
+      <SeatPane fx:id="R2C7" layoutX="739.0" layoutY="261.0" />
+      <SeatPane fx:id="R2D8" layoutX="739.0" layoutY="295.0" />
+      <SeatPane fx:id="R3A9" layoutX="710.0" layoutY="196.0" />
+      <SeatPane fx:id="R3B10" layoutX="710.0" layoutY="230.0" />
+      <SeatPane fx:id="R3C11" layoutX="710.0" layoutY="261.0" />
+      <SeatPane fx:id="R3D12" layoutX="710.0" layoutY="295.0" />
+      <SeatPane fx:id="R4A13" layoutX="682.0" layoutY="196.0" />
+      <SeatPane fx:id="R4B14" layoutX="682.0" layoutY="213.0" />
+      <SeatPane fx:id="R4C15" layoutX="682.0" layoutY="230.0" />
+      <SeatPane fx:id="R4D16" layoutX="682.0" layoutY="261.0" />
+      <SeatPane fx:id="R4E17" layoutX="682.0" layoutY="278.0" />
+      <SeatPane fx:id="R4F18" layoutX="682.0" layoutY="295.0" />
+      <SeatPane fx:id="R5A19" layoutX="655.0" layoutY="196.0" />
+      <SeatPane fx:id="R5B20" layoutX="655.0" layoutY="213.0" />
+      <SeatPane fx:id="R5C21" layoutX="655.0" layoutY="230.0" />
+      <SeatPane fx:id="R5D22" layoutX="655.0" layoutY="261.0" />
+      <SeatPane fx:id="R5E23" layoutX="655.0" layoutY="278.0" />
+      <SeatPane fx:id="R5F24" layoutX="655.0" layoutY="295.0" />
+      <SeatPane fx:id="R6A25" layoutX="624.0" layoutY="196.0" />
+      <SeatPane fx:id="R6B26" layoutX="624.0" layoutY="213.0" />
+      <SeatPane fx:id="R6C27" layoutX="624.0" layoutY="230.0" />
+      <SeatPane fx:id="R6D28" layoutX="624.0" layoutY="261.0" />
+      <SeatPane fx:id="R6E29" layoutX="624.0" layoutY="278.0" />
+      <SeatPane fx:id="R6F30" layoutX="624.0" layoutY="295.0" />
+      <SeatPane fx:id="R7A31" layoutX="597.0" layoutY="196.0" />
+      <SeatPane fx:id="R7B32" layoutX="597.0" layoutY="213.0" />
+      <SeatPane fx:id="R7C33" layoutX="597.0" layoutY="230.0" />
+      <SeatPane fx:id="R7D34" layoutX="597.0" layoutY="261.0" />
+      <SeatPane fx:id="R7E35" layoutX="597.0" layoutY="278.0" />
+      <SeatPane fx:id="R7F36" layoutX="597.0" layoutY="295.0" />
+      <SeatPane fx:id="R8A37" layoutX="569.0" layoutY="196.0" />
+      <SeatPane fx:id="R8B38" layoutX="569.0" layoutY="213.0" />
+      <SeatPane fx:id="R8C39" layoutX="569.0" layoutY="230.0" />
+      <SeatPane fx:id="R8D40" layoutX="569.0" layoutY="261.0" />
+      <SeatPane fx:id="R8E41" layoutX="569.0" layoutY="278.0" />
+      <SeatPane fx:id="R8F42" layoutX="569.0" layoutY="295.0" />
+      <SeatPane fx:id="R9A43" layoutX="540.0" layoutY="196.0" />
+      <SeatPane fx:id="R9B44" layoutX="540.0" layoutY="213.0" />
+      <SeatPane fx:id="R9C45" layoutX="540.0" layoutY="230.0" />
+      <SeatPane fx:id="R9D46" layoutX="540.0" layoutY="261.0" />
+      <SeatPane fx:id="R9E47" layoutX="540.0" layoutY="278.0" />
+      <SeatPane fx:id="R9F48" layoutX="540.0" layoutY="295.0" />
+      <SeatPane fx:id="R10A49" layoutX="512.0" layoutY="196.0" />
+      <SeatPane fx:id="R10B50" layoutX="512.0" layoutY="213.0" />
+      <SeatPane fx:id="R10C51" layoutX="512.0" layoutY="230.0" />
+      <SeatPane fx:id="R10D52" layoutX="512.0" layoutY="261.0" />
+      <SeatPane fx:id="R10E53" layoutX="512.0" layoutY="278.0" />
+      <SeatPane fx:id="R10F54" layoutX="512.0" layoutY="295.0" />
+      <SeatPane fx:id="R11A55" layoutX="487.0" layoutY="196.0" />
+      <SeatPane fx:id="R11B56" layoutX="487.0" layoutY="213.0" />
+      <SeatPane fx:id="R11C57" layoutX="487.0" layoutY="230.0" />
+      <SeatPane fx:id="R11D58" layoutX="487.0" layoutY="261.0" />
+      <SeatPane fx:id="R11E59" layoutX="487.0" layoutY="278.0" />
+      <SeatPane fx:id="R11F60" layoutX="487.0" layoutY="295.0" />
+      <SeatPane fx:id="R12A61" layoutX="463.0" layoutY="196.0" />
+      <SeatPane fx:id="R12B62" layoutX="463.0" layoutY="213.0" />
+      <SeatPane fx:id="R12C63" layoutX="463.0" layoutY="230.0" />
+      <SeatPane fx:id="R12D64" layoutX="463.0" layoutY="261.0" />
+      <SeatPane fx:id="R12E65" layoutX="463.0" layoutY="278.0" />
+      <SeatPane fx:id="R12F66" layoutX="463.0" layoutY="295.0" />
+      <SeatPane fx:id="R13A67" layoutX="437.0" layoutY="196.0" />
+      <SeatPane fx:id="R13B68" layoutX="437.0" layoutY="213.0" />
+      <SeatPane fx:id="R13C69" layoutX="437.0" layoutY="230.0" />
+      <SeatPane fx:id="R13D70" layoutX="437.0" layoutY="261.0" />
+      <SeatPane fx:id="R13E71" layoutX="437.0" layoutY="278.0" />
+      <SeatPane fx:id="R13F72" layoutX="437.0" layoutY="295.0" />
+      <SeatPane fx:id="R14A73" layoutX="413.0" layoutY="196.0" />
+      <SeatPane fx:id="R14B74" layoutX="413.0" layoutY="213.0" />
+      <SeatPane fx:id="R14C75" layoutX="413.0" layoutY="230.0" />
+      <SeatPane fx:id="R14D76" layoutX="413.0" layoutY="261.0" />
+      <SeatPane fx:id="R14E77" layoutX="413.0" layoutY="278.0" />
+      <SeatPane fx:id="R14F78" layoutX="413.0" layoutY="295.0" />
+      <SeatPane fx:id="R15A79" layoutX="387.0" layoutY="196.0" />
+      <SeatPane fx:id="R15B80" layoutX="387.0" layoutY="213.0" />
+      <SeatPane fx:id="R15C81" layoutX="387.0" layoutY="230.0" />
+      <SeatPane fx:id="R15D82" layoutX="387.0" layoutY="261.0" />
+      <SeatPane fx:id="R15E83" layoutX="387.0" layoutY="278.0" />
+      <SeatPane fx:id="R15F84" layoutX="387.0" layoutY="295.0" />
+      <SeatPane fx:id="R16A85" layoutX="362.0" layoutY="196.0" />
+      <SeatPane fx:id="R16B86" layoutX="362.0" layoutY="213.0" />
+      <SeatPane fx:id="R16C87" layoutX="362.0" layoutY="230.0" />
+      <SeatPane fx:id="R16D88" layoutX="362.0" layoutY="261.0" />
+      <SeatPane fx:id="R16E89" layoutX="362.0" layoutY="278.0" />
+      <SeatPane fx:id="R16F90" layoutX="362.0" layoutY="295.0" />
+      <SeatPane fx:id="R17A91" layoutX="337.0" layoutY="196.0" />
+      <SeatPane fx:id="R17B92" layoutX="337.0" layoutY="213.0" />
+      <SeatPane fx:id="R17C93" layoutX="337.0" layoutY="230.0" />
+      <SeatPane fx:id="R17D94" layoutX="337.0" layoutY="261.0" />
+      <SeatPane fx:id="R17E95" layoutX="337.0" layoutY="278.0" />
+      <SeatPane fx:id="R17F96" layoutX="337.0" layoutY="295.0" />
+      <SeatPane fx:id="R18A97" layoutX="313.0" layoutY="196.0" />
+      <SeatPane fx:id="R18B98" layoutX="313.0" layoutY="213.0" />
+      <SeatPane fx:id="R18C99" layoutX="313.0" layoutY="230.0" />
+      <SeatPane fx:id="R18D100" layoutX="313.0" layoutY="261.0" />
+      <SeatPane fx:id="R18E101" layoutX="313.0" layoutY="278.0" />
+      <SeatPane fx:id="R18F102" layoutX="313.0" layoutY="295.0" />
+      <SeatPane fx:id="R19A103" layoutX="289.0" layoutY="196.0" />
+      <SeatPane fx:id="R19B104" layoutX="289.0" layoutY="213.0" />
+      <SeatPane fx:id="R19C105" layoutX="289.0" layoutY="230.0" />
+      <SeatPane fx:id="R19D106" layoutX="289.0" layoutY="261.0" />
+      <SeatPane fx:id="R19E107" layoutX="289.0" layoutY="278.0" />
+      <SeatPane fx:id="R19F108" layoutX="289.0" layoutY="295.0" />
+      <SeatPane fx:id="R20A109" layoutX="263.0" layoutY="196.0" />
+      <SeatPane fx:id="R20B110" layoutX="263.0" layoutY="213.0" />
+      <SeatPane fx:id="R20C111" layoutX="263.0" layoutY="230.0" />
+      <SeatPane fx:id="R20D112" layoutX="263.0" layoutY="261.0" />
+      <SeatPane fx:id="R20E113" layoutX="263.0" layoutY="278.0" />
+      <SeatPane fx:id="R20F114" layoutX="263.0" layoutY="295.0" />
+      <SeatPane fx:id="R21A115" layoutX="238.0" layoutY="196.0" />
+      <SeatPane fx:id="R21B116" layoutX="238.0" layoutY="213.0" />
+      <SeatPane fx:id="R21C117" layoutX="238.0" layoutY="230.0" />
+      <SeatPane fx:id="R21D118" layoutX="238.0" layoutY="261.0" />
+      <SeatPane fx:id="R21E119" layoutX="238.0" layoutY="278.0" />
+      <SeatPane fx:id="R21F120" layoutX="238.0" layoutY="295.0" />
+      <SeatPane fx:id="R22A121" layoutX="213.0" layoutY="196.0" />
+      <SeatPane fx:id="R22B122" layoutX="213.0" layoutY="213.0" />
+      <SeatPane fx:id="R22C123" layoutX="213.0" layoutY="230.0" />
+      <SeatPane fx:id="R22D124" layoutX="213.0" layoutY="261.0" />
+      <SeatPane fx:id="R22E125" layoutX="213.0" layoutY="278.0" />
+      <SeatPane fx:id="R22F126" layoutX="213.0" layoutY="295.0" />
+      <SeatPane fx:id="R23A127" layoutX="187.0" layoutY="196.0" />
+      <SeatPane fx:id="R23B128" layoutX="187.0" layoutY="213.0" />
+      <SeatPane fx:id="R23C129" layoutX="187.0" layoutY="230.0" />
+      <SeatPane fx:id="R23D130" layoutX="187.0" layoutY="261.0" />
+      <SeatPane fx:id="R23E131" layoutX="187.0" layoutY="278.0" />
+      <SeatPane fx:id="R23F132" layoutX="187.0" layoutY="295.0" />
+      <SeatPane fx:id="R24A133" layoutX="162.0" layoutY="196.0" />
+      <SeatPane fx:id="R24B134" layoutX="162.0" layoutY="213.0" />
+      <SeatPane fx:id="R24C135" layoutX="162.0" layoutY="230.0" />
+      <SeatPane fx:id="R24D136" layoutX="162.0" layoutY="261.0" />
+      <SeatPane fx:id="R24E137" layoutX="162.0" layoutY="278.0" />
+      <SeatPane fx:id="R24F138" layoutX="162.0" layoutY="295.0" />
+      <Button fx:id="back" layoutX="40.0" layoutY="422.0" mnemonicParsing="false" onAction="#openEnterInfoScene" text="&lt;- Back" />
+      <TextArea fx:id="textForSelected" layoutX="337.0" layoutY="377.0" prefHeight="57.0" prefWidth="212.0" promptText="Choose a seat" />
+      <Text layoutX="615.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Business">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="729.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="reserveBtn" layoutX="823.0" layoutY="422.0" mnemonicParsing="false" onAction="#writeSeatData" text="Reserve" />
+      <Line endX="1.5008544921875" endY="3.6000137329101562" layoutX="505.0" layoutY="105.0" startX="1.5008544921875" startY="210.0" />
+      <Line endX="1.90081787109375" endY="171.60000610351562" layoutX="703.0" layoutY="143.0" startX="1.90081787109375" startY="-33.20000457763672" />
+   </children>
+</AnchorPane>

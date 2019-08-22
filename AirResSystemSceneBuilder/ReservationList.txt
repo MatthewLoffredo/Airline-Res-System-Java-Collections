@@ -1,0 +1,15 @@
+1A Matt G Loffredo Male 01041931 Andorra 1342432345 Anguilla,Albania B true false
+10E Mango H Harper Female 06271968 Côte-d’Ivoire 62346624 Haiti,Switzerland B false true
+6B Bob L Zano Male 08231981 Lebanon 3434 Bahrain,Colombia B true false
+18E Janet P Morris Female 07251973 Togo 9994857384 Canada,Germany E false true
+14C Clayton B Hamish Male 05141949 Ecuador 3455553463 Australia,Poland E false false
+2D Ellie H Corbin Female 09132002 Georgia 3448394857 Costa-Rica,Switzerland F false true
+7F Mrs. H Xu Female 05051942 China 4447586223 China,United-States B false false
+24A Wendy E Woo Female 04011933 Australia 555356663 Anguilla,Nauru E false false
+20E John P Jenkins Male 08131992 New-Zealand 2775665756 Panama,Paraguay E true false
+9E Xi Xing Ping Male 06051946 Indonesia 4889447382 Dominica,Curaçao B false false
+12B Tom M Riddle Male 03051935 Cambodia 4448930492 Belarus,Bolivia E true false
+9C Carol J Seigfreid Female 06031933 Austria 34343435 Botswana,Bolivia B false true
+23D Bill M Waterson Male 09061979 Costa-Rica 344555908 Dominica,Finland E true false
+2B Will E Smith Male 06121959 Russia 3334445555 Barbados,Togo F false false
+2A Janice W Smith Female 05022004 Colombia 5566677765 Slovenia,Yemen F false false

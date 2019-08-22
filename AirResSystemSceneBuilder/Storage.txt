@@ -1,0 +1,4 @@
+Matt,G,Loffredo,01271998,Male,Malta,70,Austria,Albania,Economy,true,false
+Jack,J,Morth,04051936,Male,Gambia,7896785678,Pakistan,Guyana,First Class,false,false
+Jill,J,Backas,07021933,Female,Guyana,1904782984,South Sudan,Israel,Business,false,true
+Tim,L,Curback,07081969,Male,Guyana,1876472098,Turkmenistan,Christmas Island,Economy,true,false
